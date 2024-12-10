@@ -32,4 +32,5 @@
 * Оценка пользователя от 0 до 5 (rating)
 * Текст отзыва (text)
 
-  
+Веб-приложение развернуто на Hugging Face Spaces и доступно по следующей [ссылке](https://huggingface.co/spaces/Emil25/PP3_Team_1)
+![app](https://github.com/sultanovemil/PP_3_URFU/blob/main/img/app.png)
