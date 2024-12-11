@@ -49,7 +49,7 @@
 - Вычислена базовая статистика:
   - Количество уникальных организаций, адресов и рубрик.  
   - Построены графики распределения уникальных объектов (организаций, адресов, рубрик).
-  [img](https://github.com/sultanovemil/PP_3_URFU/blob/main/img/destribution.png)
+  ![img](https://github.com/sultanovemil/PP_3_URFU/blob/main/img/destribution.png)
 	
 
 #### 3. Геокодирование адресов
@@ -65,12 +65,12 @@
 - С помощью TF-IDF анализа были выделены ключевые слова для каждой рубрики.
 - Датасет был дополнен новым признаком `kw_by_rub` — ключевые слова, соответствующие рубрикам организации.
 
-[img](https://github.com/sultanovemil/PP_3_URFU/blob/main/img/key_words.png)
+![img](https://github.com/sultanovemil/PP_3_URFU/blob/main/img/key_words.png)
 
 ##### 4.3. Замена рейтинга
 - Из-за дисбаланса в распределении рейтингов (преобладание оценок "5") рейтинг был заменен на средний рейтинг организации.
 - Построен график распределения отзывов по рейтингу.
-[img](https://github.com/sultanovemil/PP_3_URFU/blob/main/img/Rating_destribution.png)
+![img](https://github.com/sultanovemil/PP_3_URFU/blob/main/img/Rating_destribution.png)
 
 #### 5. Очистка текстов отзывов
 - Проведена базовая очистка текстов:
@@ -155,7 +155,7 @@
 #### 6. Обучение модели
 - Обучение модели проводилось с использованием класса `Trainer` из библиотеки `transformers`.
 
-[img](https://github.com/sultanovemil/PP_3_URFU/blob/main/img/learning.PNG)
+![img](https://github.com/sultanovemil/PP_3_URFU/blob/main/img/learning.PNG)
 
 ---
 
